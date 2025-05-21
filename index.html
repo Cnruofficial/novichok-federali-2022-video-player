@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новичок: Федералы 2022</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      height: 100%;
+      width: 100%;
+    }
+
+    .player-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #player {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="player-container">
+    <div id="player"></div>
+  </div>
+
+  <script src="playerjs.js"></script>
+  <script>
+    new Playerjs({
+      id: "player",
+      file: [{
+        title: "1 сезон",
+        folder: [
+          { title: "1 Серия", file: "https://pixeldrain.com/api/file/KZTMguM1?download" },
+          { title: "2 Серия", file: "https://pixeldrain.com/api/file/xHHBykxo?download" },
+          { title: "3 Серия", file: "https://pixeldrain.com/api/file/3opkcQYF?download" },
+          { title: "4 Серия", file: "https://pixeldrain.com/api/file/yVnRt5LY?download" },
+          { title: "5 Серия", file: "https://pixeldrain.com/api/file/gDDyuQbB?download" },
+          { title: "6 Серия", file: "https://pixeldrain.com/api/file/3NRTmYG1?download" },
+          { title: "7 Серия", file: "https://pixeldrain.com/api/file/unm3oGtp?download" },
+          { title: "8 Серия", file: "https://pixeldrain.com/api/file/2YzjryzS?download" },
+          { title: "9 Серия", file: "https://pixeldrain.com/api/file/287TQfHG?download" },
+          { title: "10 Серия", file: "https://pixeldrain.com/api/file/And1QwdR?download" },
+          { title: "11 Серия", file: "https://pixeldrain.com/api/file/vQiHaZ1F?download" },
+          { title: "12 Серия", file: "https://pixeldrain.com/api/file/rWLxPCj8?download" },
+          { title: "13 Серия", file: "https://pixeldrain.com/api/file/j2woSQ4b?download" },
+          { title: "14 Серия", file: "https://pixeldrain.com/api/file/MH1i5W76?download" },
+          { title: "15 Серия", file: "https://pixeldrain.com/api/file/vaJ2uPBg?download" },
+          { title: "16 Серия", file: "https://pixeldrain.com/api/file/7YJPVi5X?download" },
+          { title: "17 Серия", file: "https://pixeldrain.com/api/file/czDCTfBe?download" },
+          { title: "18 Серия", file: "https://pixeldrain.com/api/file/wmKu4oy8?download" },
+          { title: "19 Серия", file: "https://pixeldrain.com/api/file/LZSvzft5?download" },
+          { title: "20 Серия", file: "https://pixeldrain.com/api/file/Djuj6WWo?download" },
+          { title: "21 Серия", file: "https://pixeldrain.com/api/file/t1B955mt?download" },
+          { title: "22 Серия", file: "https://pixeldrain.com/api/file/pUjhrGak?download" }
+        ]
+      }]
+    });
+  </script>
+
+</body>
+</html>
